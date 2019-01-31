@@ -3,3 +3,159 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 1.6em;
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 950px;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+.primary-text {
+    color: blue;
+}
+.lead{
+    font-size: 0px 20px;
+}
+.btn {
+    display:inline-block;
+    color: rgb(43, 43, 245);
+    font-size: 20px;
+    background: rgb(116, 241, 241);
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+   
+
+}
+
+.btn:hover {
+    background: deepskyblue;
+    color: rgb(21, 221, 221);
+}
+
+.dark-background {
+    background: dimgrey;
+    color: white;
+}
+
+.clr {
+    clear: both;
+}
+
+#navbar {
+    background: darkslategray;
+    color: white;
+    overflow: auto;
+}
+
+#navbar a {
+    color: whitesmoke;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar li a:hover{
+    background: rgb(245, 224, 199);
+    color: rgb(243, 178, 94);
+}
+
+#showcase {
+    background: url('../img/room.jpeg') no-repeat
+    center center/cover;
+    height: 600px;
+}
+
+.showcase-content {
+    color: cornflowerblue;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.showcase-content h1 {
+    font-size: 40px;
+    line-height: 1.2em;
+
+}
+
+.showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+#home-info {
+    height: 400px;
+}
+
+.info-img {
+    float: left;
+    width: 50%;
+    background: url(../img/hostel1.jpeg) no-repeat;
+    min-height: 100%;
+
+}
+.info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+.info-content p {
+    padding-bottom: 20px;
+}
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    text-align: center;
+    background: darkslategray;
+    color: aliceblue;
+    padding: 15px;
+}
