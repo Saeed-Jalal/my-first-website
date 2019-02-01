@@ -194,6 +194,27 @@ p {
     opacity: 0.7;
 
 }
+
+/* Contact Page */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     border: soild darkolivegreen 1px;
+
+}
+#contact-form textarea {
+    height: 200px;
+}
+
 #main-footer {
     text-align: center;
     background: rgb(80, 218, 218);
