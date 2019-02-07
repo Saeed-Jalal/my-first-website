@@ -19,7 +19,7 @@ p {
 /*Utility classes */
 
 .text-primary {
-    color: indigo;
+    color:chartreuse;
 }
 
 /* Navigation Bar */
@@ -49,6 +49,6 @@ p {
 }
 
 #navbar ul li a:hover {
-    background:indigo;
+    background:chartreuse;
     border-radius: 0.25rem;
 }
