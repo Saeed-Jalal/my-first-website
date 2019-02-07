@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/*Utility classes */
+
+.text-primary {
+    color: indigo;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(8, 140, 248);
+    color: white;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1.5rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 1.25rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background:indigo;
+    border-radius: 0.25rem;
+}
